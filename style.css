@@ -1,0 +1,100 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #D7FBE8, #9DF3C4, #62D2A2);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+lottie-player {
+    --lottie-player-toolbar-height: 0;
+    --lottie-player-toolbar-background-color: none;
+    --lottie-player-toolbar-icon-color: none;
+    --lottie-player-toolbar-icon-hover-color: none;
+    --lottie-player-toolbar-icon-active-color: none;
+    --lottie-player-seeker-track-color: none;
+    --lottie-player-seeker-thumb-color: none;
+}
+
+#header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero {
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+span {
+    font-weight: 500;
+}
+
+.btn-primary {
+    --bs-btn-color: #ffffff;
+    --bs-btn-bg: #62D2A2;
+    --bs-btn-border-color: #62D2A2;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #1FAB89;
+    --bs-btn-hover-border-color: #1FAB89;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #1FAB89;
+    --bs-btn-active-border-color: #1FAB89;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    color: #1FAB89;
+}
+
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+}
+
+#skills {
+    width: 80%;
+    margin: 0 auto;
+}
+
+hr {
+    border: dotted #1FAB89 6px;
+    border-bottom: none;
+    width: 8%;
+    margin: 5px auto;
+}
+
+#portfolio {
+    margin: 0 auto;
+    background-color: #D7FBE8;
+}
+
+.cont-anim {
+    width: 300px;
+}
